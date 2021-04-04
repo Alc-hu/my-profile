@@ -1,0 +1,145 @@
+body {
+  background-color: #D6D2C4;
+  color: #222931;
+  font-family: 'Lora', serif;
+  font-size: 15px;
+  font-weight: 100;
+  margin: 50px;
+  display: block;
+}
+
+
+h1 {
+  color: #E2BCB7;
+  font-family: 'Lora', serif;
+  letter-spacing: 3px;
+  font-size: 50px;
+}
+
+
+
+div{
+  text-align-last: center;
+  background: white;
+  padding: 60px;
+  margin: 20px auto;
+
+}
+
+
+h2 {
+  color: #968C83;
+  font-family: 'Catamaran', sans-serif;
+  letter-spacing: 1px;
+  font-size: 27px;
+  font-weight: 900;
+  margin: 3px 8px;
+}
+
+strong {
+  color: black;
+  font-weight: 900;
+
+
+
+}
+
+a {
+  font-family: 'Lora', serif;
+  text-decoration: none;
+  color: #E2BCB7;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+a:hover {
+  color: #B67162;
+ }
+
+.container {
+  width: 700px; /* set the width of your container */
+  margin: 40px auto; /* set margins: top/bottom: 40px; left/right: automatic */
+}
+
+@media (max-width: 760){
+  .container{
+    width: 600px;
+  }
+}
+
+@media (max-width: 500px){
+  .container {
+    width: 400px;
+  }
+}
+
+
+li{
+  text-align-last: center;
+  background: white;
+  padding: 4px;
+  margin: 4px auto;
+}
+
+
+.img-circle { /* select all elements with the class="img-circle" */
+  border-radius: 50%;
+}
+
+.perfect-circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+
+.card-white {
+  background-color: white;
+  padding: 60px;
+  margin: 20px auto;
+  box-shadow: 8px 15px 30px rgb(0 0 0 / 10%);
+  border-top: 1px dashed beige;
+  border-right: 2px dashed beige;
+  border-bottom: 1px dashed beige;
+  border-left: 2px dashed beige ;
+}
+
+.btn-blue {
+  text-align-last: center;
+  background-color: #D6D2C4;
+  color: white;
+  padding: 10px 15px;
+  margin: 10px auto;
+  border-radius: 5px;
+}
+
+.btn-blue:hover {
+  background-color: #968C83;
+  color: white;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+
+.list-inline i {
+  font-size: 50px;
+  color: rgb(230,230,230);
+}
+
+.list-inline i:hover {
+  color: #968C83;
+}
+
+#introduction p {
+  margin-bottom: 40px;
+}
+
+
+
